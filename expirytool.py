@@ -3395,7 +3395,6 @@ if CURRENT_USER.get("is_admin"):
     choices.append("ADMIN")
 choices.append("LOG OUT")
 
-
 def main_menu(stdscr):
     while True:
         CURRENT_PATH[:] = ["MAIN"]
